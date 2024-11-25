@@ -5,7 +5,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 
-@Entity  // Обязательно добавьте эту аннотацию
+@Entity
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Product {
     @Id
